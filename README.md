@@ -18,6 +18,8 @@ source venv/bin/activate
 venv/bin/python -m pip install pip pip-tools rav --upgrade
 venv/bin/rav run installs
 rav run freeze
+cd src
+python manage.py runserver
 ```
 
 
@@ -28,6 +30,8 @@ c:\Python310\python.exe -m venv venv
 python -m pip install pip pip-tools rav --upgrade
 rav run win_installs
 rav run win_freeze
+cd src
+python manage.py runserver
 ```
 ## Key Features
 
